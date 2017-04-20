@@ -12,6 +12,7 @@ app for your team, and authorize it for `users.profile:write`.  You will recieve
 
 
 Then create a YML file in your home directory to tell slack_status how to authorize, 
+```
 ---
 slack:
   # The network interface to use to look up the SSID that is currently in use
@@ -37,4 +38,4 @@ slack:
     status: ""
     icon: ""
 ...
-
+```
